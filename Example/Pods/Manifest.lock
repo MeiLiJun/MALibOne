@@ -1,0 +1,16 @@
+PODS:
+  - MALibOne (0.1.0)
+
+DEPENDENCIES:
+  - MALibOne (from `../`)
+
+EXTERNAL SOURCES:
+  MALibOne:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MALibOne: cbf61dfaf7b4f109ac090b96600d4b8f2b4da0d8
+
+PODFILE CHECKSUM: 97942df19412f11531c2029b8f8d5e2349afa3ab
+
+COCOAPODS: 1.9.3
