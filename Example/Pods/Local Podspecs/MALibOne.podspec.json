@@ -1,7 +1,7 @@
 {
   "name": "MALibOne",
-  "version": "0.1.0",
-  "summary": "component test",
+  "version": "0.3.0",
+  "summary": "component test 3",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/MeiLiJun/MALibOne",
   "license": {
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/MeiLiJun/MALibOne.git",
-    "tag": "0.1.0"
+    "tag": "0.3.0"
   },
   "platforms": {
     "ios": "9.0"

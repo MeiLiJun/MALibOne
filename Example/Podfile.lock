@@ -1,5 +1,5 @@
 PODS:
-  - MALibOne (0.1.0)
+  - MALibOne (0.3.0)
 
 DEPENDENCIES:
   - MALibOne (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MALibOne: ab9a0f3b2906d5e9bf62fb2aa645c1917e736987
+  MALibOne: cf12471ebdfef6b62943e4117b87e7e4ae3c5380
 
 PODFILE CHECKSUM: 97942df19412f11531c2029b8f8d5e2349afa3ab
 
