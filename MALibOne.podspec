@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MALibOne'
-  s.version          = '0.3.0'
-  s.summary          = 'component test 3'
+  s.version          = '0.4.0'
+  s.summary          = 'component test 040'
 
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
