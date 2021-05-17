@@ -7,6 +7,7 @@
 //
 
 #import "MAViewController.h"
+#import "FirstClassTest.h"
 
 @interface MAViewController ()
 
