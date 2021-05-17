@@ -10,7 +10,7 @@
 #endif
 #endif
 
-#import "FirstClassTest.h"
+#import "MATestClass.h"
 
 FOUNDATION_EXPORT double MALibOneVersionNumber;
 FOUNDATION_EXPORT const unsigned char MALibOneVersionString[];

@@ -7,7 +7,7 @@
 //
 
 #import "MAViewController.h"
-#import "FirstClassTest.h"
+#import "MATestClass.h"
 
 @interface MAViewController ()
 
@@ -19,6 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    MATestClass *testCalss = [[MATestClass alloc] init];
 }
 
 - (void)didReceiveMemoryWarning

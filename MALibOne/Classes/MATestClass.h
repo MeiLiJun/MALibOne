@@ -1,15 +1,15 @@
 //
-//  FirstClassTest.h
+//  MATestClass.h
 //  MALibOne
 //
-//  Created by Mason on 2021/5/14.
+//  Created by Mason on 2021/5/17.
 //
 
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface FirstClassTest : NSObject
+@interface MATestClass : NSObject
 
 @end
 

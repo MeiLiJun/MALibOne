@@ -9,15 +9,15 @@
 /* Begin PBXBuildFile section */
 		0942232C927A2F7880BFFB0C8BF291FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		0ECA2F0ED6099855DE1F55FAD26ED519 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		2582B674E93E47B72AF241C7B07E7DB0 /* MALibOne-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF2987DC2BDE2751D0B9AD0135DE079 /* MALibOne-dummy.m */; };
+		160B9EC6C5B8873EBD109609C2F36455 /* MALibOne-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DB8FDBE39B3BCB19F009F31482E65A /* MALibOne-dummy.m */; };
+		195A126B4A73F0A366979711EE5AF7E2 /* MALibOne-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B513D0C168EF9ABFDF2AF96AA3CB44D5 /* MALibOne-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		503DC4BE6FAB41CB5F55C62EBB955533 /* Pods-MALibOne_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48FB57349DCF4BD67FC7A68DA487241E /* Pods-MALibOne_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6227829B9CAB4F6F1BAE93874C463862 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		69F37B41528BBB3EE70134FE7866098C /* FirstClassTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 63424791075B2B2A1BB059DFD3B413F3 /* FirstClassTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6DED6EBC2F326605FC1E253E4E77DF66 /* Pods-MALibOne_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37676ED628C539044C6CE9F8BA70E8B0 /* Pods-MALibOne_Tests-dummy.m */; };
+		75EF409A810FA448B1733DF7E9FE0293 /* MATestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F50ED3FC92C486FE0C86002DEC7B031 /* MATestClass.m */; };
 		7D1ABC3FBB3CC908C9D48745FC3C3E92 /* Pods-MALibOne_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9695DBC28E941BCF835F0C34A015577A /* Pods-MALibOne_Example-dummy.m */; };
-		80ADAA97564AFB556F519B6D92414683 /* MALibOne-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 540494C19FFE8D7960D16C4438649814 /* MALibOne-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A1A1CDE1CB0353E6B75AEDB4031E44D9 /* Pods-MALibOne_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AC5D44F1402B09E36CD793409BDEE73 /* Pods-MALibOne_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F0299946C339F207D1DC0927A5001417 /* FirstClassTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E2E02DD03214474FB6A12DB1F4A84C /* FirstClassTest.m */; };
+		B42B7A3F305FEB83AAB246CD67AAA9CC /* MATestClass.h in Headers */ = {isa = PBXBuildFile; fileRef = C24CEC36510B21B69F2F753D0FEC87B0 /* MATestClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		118006FBCDA5C62E080FA1915D59AC97 /* MALibOne.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MALibOne.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		17B0DF555297CE805F1C1FEE10A393D9 /* Pods_MALibOne_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MALibOne_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		200C607DD875D76E312858F5B440AE7B /* MALibOne-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MALibOne-prefix.pch"; sourceTree = "<group>"; };
+		17B0DF555297CE805F1C1FEE10A393D9 /* Pods_MALibOne_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MALibOne_Example.framework; path = "Pods-MALibOne_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		255273A325A0F6F46AB31B52771B67BE /* Pods-MALibOne_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MALibOne_Tests.modulemap"; sourceTree = "<group>"; };
 		2BC77074FF29D087C7F182575A1FE46B /* Pods-MALibOne_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MALibOne_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2D5B0B5617CB8D2C354D2835EE11A6C2 /* Pods-MALibOne_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MALibOne_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -48,30 +46,32 @@
 		48FB57349DCF4BD67FC7A68DA487241E /* Pods-MALibOne_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MALibOne_Tests-umbrella.h"; sourceTree = "<group>"; };
 		4A9675039731C6D592F683B4FAA873AA /* Pods-MALibOne_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MALibOne_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4AC5D44F1402B09E36CD793409BDEE73 /* Pods-MALibOne_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MALibOne_Example-umbrella.h"; sourceTree = "<group>"; };
-		540494C19FFE8D7960D16C4438649814 /* MALibOne-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MALibOne-umbrella.h"; sourceTree = "<group>"; };
-		63424791075B2B2A1BB059DFD3B413F3 /* FirstClassTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FirstClassTest.h; path = MALibOne/Classes/FirstClassTest.h; sourceTree = "<group>"; };
+		4F50ED3FC92C486FE0C86002DEC7B031 /* MATestClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MATestClass.m; path = MALibOne/Classes/MATestClass.m; sourceTree = "<group>"; };
+		5901C02785C9D340F8EC32C894E96BAA /* MALibOne-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MALibOne-prefix.pch"; sourceTree = "<group>"; };
+		59DB8FDBE39B3BCB19F009F31482E65A /* MALibOne-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MALibOne-dummy.m"; sourceTree = "<group>"; };
 		65D89B8AC0DA18AFE2C4778BEE24438F /* Pods-MALibOne_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MALibOne_Example-frameworks.sh"; sourceTree = "<group>"; };
+		66DDCA460A84E5B8937F54675002A17E /* MALibOne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MALibOne.release.xcconfig; sourceTree = "<group>"; };
+		7120D18806DE799C2F36C35D767C4064 /* MALibOne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MALibOne.debug.xcconfig; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7458D3D9040FAAEECA6309B76F8EED07 /* Pods-MALibOne_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MALibOne_Tests-Info.plist"; sourceTree = "<group>"; };
-		7D7281FBE1796D9F2C6235969EF4879F /* MALibOne.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MALibOne.modulemap; sourceTree = "<group>"; };
-		878FEF9E5B4A03D8086FBDD34B1B3765 /* MALibOne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MALibOne.debug.xcconfig; sourceTree = "<group>"; };
+		758BF92060DA3F2474134C011BAF86E5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		89F23033E9BE9FD19EB2216E1DBDCF0A /* Pods-MALibOne_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MALibOne_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8B37EE0DFC1908132023E36439E38351 /* Pods-MALibOne_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MALibOne_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		8ED469563F7758CABB5C6A04B9657112 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		93E2E02DD03214474FB6A12DB1F4A84C /* FirstClassTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FirstClassTest.m; path = MALibOne/Classes/FirstClassTest.m; sourceTree = "<group>"; };
 		9695DBC28E941BCF835F0C34A015577A /* Pods-MALibOne_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MALibOne_Example-dummy.m"; sourceTree = "<group>"; };
-		9CF2987DC2BDE2751D0B9AD0135DE079 /* MALibOne-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MALibOne-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AC85DD04E1004738F0BFF7611150E397 /* MALibOne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MALibOne.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F6A755D248CA9FA976EDA95F99A47F6 /* MALibOne-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MALibOne-Info.plist"; sourceTree = "<group>"; };
+		B513D0C168EF9ABFDF2AF96AA3CB44D5 /* MALibOne-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MALibOne-umbrella.h"; sourceTree = "<group>"; };
+		C12776649328DC11F6DA2AF1D2CA78E4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C24CEC36510B21B69F2F753D0FEC87B0 /* MATestClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MATestClass.h; path = MALibOne/Classes/MATestClass.h; sourceTree = "<group>"; };
+		C26359AC1705FC34AD71AA6DE9E98DBE /* MALibOne.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MALibOne.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C3F13E00761DD8EBFE0803162ABB55F0 /* Pods-MALibOne_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MALibOne_Example-Info.plist"; sourceTree = "<group>"; };
-		CE358B60E4BDC31F3ABC33C48756A28A /* MALibOne-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MALibOne-Info.plist"; sourceTree = "<group>"; };
 		D10994BF0A883916785E67FE911DAF9D /* Pods-MALibOne_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MALibOne_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D941A2029B12FC7027CABB509D993724 /* Pods-MALibOne_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MALibOne_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D9F702BA7F9A8C4234EFCB947F283296 /* Pods-MALibOne_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MALibOne_Example.modulemap"; sourceTree = "<group>"; };
-		DA7FEB10B1A90FC632C71673BAFD3CD3 /* MALibOne.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MALibOne.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA7FEB10B1A90FC632C71673BAFD3CD3 /* MALibOne.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MALibOne.framework; path = MALibOne.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E181E3F67764BB6C977ADCE1694DB599 /* Pods-MALibOne_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MALibOne_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F5206F21583DEBD235156CE61DDC9F54 /* Pods_MALibOne_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MALibOne_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA3883D5BFD7A4C157AA6857509EB109 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E56AFA3096A18D2002D53EA0C6DA5C6B /* MALibOne.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MALibOne.modulemap; sourceTree = "<group>"; };
+		F5206F21583DEBD235156CE61DDC9F54 /* Pods_MALibOne_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MALibOne_Tests.framework; path = "Pods-MALibOne_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,16 +102,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		13F45F0E831230BB3023B64846BD0767 /* MALibOne */ = {
+		08A232D880B1EACDA0217A1C6C1CDC9B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				63424791075B2B2A1BB059DFD3B413F3 /* FirstClassTest.h */,
-				93E2E02DD03214474FB6A12DB1F4A84C /* FirstClassTest.m */,
-				9FAA055D0DFE80DF6E58FAD247F4987A /* Pod */,
-				4A0E379483D386F5404C972876550757 /* Support Files */,
+				E56AFA3096A18D2002D53EA0C6DA5C6B /* MALibOne.modulemap */,
+				59DB8FDBE39B3BCB19F009F31482E65A /* MALibOne-dummy.m */,
+				9F6A755D248CA9FA976EDA95F99A47F6 /* MALibOne-Info.plist */,
+				5901C02785C9D340F8EC32C894E96BAA /* MALibOne-prefix.pch */,
+				B513D0C168EF9ABFDF2AF96AA3CB44D5 /* MALibOne-umbrella.h */,
+				7120D18806DE799C2F36C35D767C4064 /* MALibOne.debug.xcconfig */,
+				66DDCA460A84E5B8937F54675002A17E /* MALibOne.release.xcconfig */,
 			);
-			name = MALibOne;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MALibOne";
 			sourceTree = "<group>";
 		};
 		2BA4C56CD86665BE074315F01F625D19 /* Products */ = {
@@ -133,21 +136,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		4A0E379483D386F5404C972876550757 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7D7281FBE1796D9F2C6235969EF4879F /* MALibOne.modulemap */,
-				9CF2987DC2BDE2751D0B9AD0135DE079 /* MALibOne-dummy.m */,
-				CE358B60E4BDC31F3ABC33C48756A28A /* MALibOne-Info.plist */,
-				200C607DD875D76E312858F5B440AE7B /* MALibOne-prefix.pch */,
-				540494C19FFE8D7960D16C4438649814 /* MALibOne-umbrella.h */,
-				878FEF9E5B4A03D8086FBDD34B1B3765 /* MALibOne.debug.xcconfig */,
-				AC85DD04E1004738F0BFF7611150E397 /* MALibOne.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MALibOne";
-			sourceTree = "<group>";
-		};
 		4DB24011F3D496A6B887EC2D233C2CDA /* Pods-MALibOne_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -167,7 +155,7 @@
 		512E692A30A1DEF89AAC3BF991E7A767 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				13F45F0E831230BB3023B64846BD0767 /* MALibOne */,
+				DFF1591B02276F773FD262BB243E4051 /* MALibOne */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -180,12 +168,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		9FAA055D0DFE80DF6E58FAD247F4987A /* Pod */ = {
+		84290353EB9F73EC1A010010DF0A3B2C /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				8ED469563F7758CABB5C6A04B9657112 /* LICENSE */,
-				118006FBCDA5C62E080FA1915D59AC97 /* MALibOne.podspec */,
-				FA3883D5BFD7A4C157AA6857509EB109 /* README.md */,
+				C12776649328DC11F6DA2AF1D2CA78E4 /* LICENSE */,
+				C26359AC1705FC34AD71AA6DE9E98DBE /* MALibOne.podspec */,
+				758BF92060DA3F2474134C011BAF86E5 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -207,6 +195,18 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFF1591B02276F773FD262BB243E4051 /* MALibOne */ = {
+			isa = PBXGroup;
+			children = (
+				C24CEC36510B21B69F2F753D0FEC87B0 /* MATestClass.h */,
+				4F50ED3FC92C486FE0C86002DEC7B031 /* MATestClass.m */,
+				84290353EB9F73EC1A010010DF0A3B2C /* Pod */,
+				08A232D880B1EACDA0217A1C6C1CDC9B /* Support Files */,
+			);
+			name = MALibOne;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		E2A910011BDEB4EE6CE5ED5E28BAEEF4 /* Pods-MALibOne_Example */ = {
@@ -237,12 +237,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		368484170CF1341679DA0A4A884925D5 /* Headers */ = {
+		28073064B9591682B677AC42AFA4F7DB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69F37B41528BBB3EE70134FE7866098C /* FirstClassTest.h in Headers */,
-				80ADAA97564AFB556F519B6D92414683 /* MALibOne-umbrella.h in Headers */,
+				195A126B4A73F0A366979711EE5AF7E2 /* MALibOne-umbrella.h in Headers */,
+				B42B7A3F305FEB83AAB246CD67AAA9CC /* MATestClass.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,8 +299,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E5BE7661465274C42743BA365DE650D7 /* Build configuration list for PBXNativeTarget "MALibOne" */;
 			buildPhases = (
-				368484170CF1341679DA0A4A884925D5 /* Headers */,
-				03A29EB21EDEC6A1674AA00D524CF254 /* Sources */,
+				28073064B9591682B677AC42AFA4F7DB /* Headers */,
+				390B5C3F2B8607EFDBFDBDF72B0A39E0 /* Sources */,
 				35F7815D77424ABE36BB0E8E8F738E05 /* Frameworks */,
 				7D5B54AD82DAB33C0BAB19B9D289B602 /* Resources */,
 			);
@@ -367,12 +367,12 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		03A29EB21EDEC6A1674AA00D524CF254 /* Sources */ = {
+		390B5C3F2B8607EFDBFDBDF72B0A39E0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0299946C339F207D1DC0927A5001417 /* FirstClassTest.m in Sources */,
-				2582B674E93E47B72AF241C7B07E7DB0 /* MALibOne-dummy.m in Sources */,
+				160B9EC6C5B8873EBD109609C2F36455 /* MALibOne-dummy.m in Sources */,
+				75EF409A810FA448B1733DF7E9FE0293 /* MATestClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,9 +412,8 @@
 /* Begin XCBuildConfiguration section */
 		2E5B55F81B1457574FE9152D10AD8EE7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC85DD04E1004738F0BFF7611150E397 /* MALibOne.release.xcconfig */;
+			baseConfigurationReference = 66DDCA460A84E5B8937F54675002A17E /* MALibOne.release.xcconfig */;
 			buildSettings = {
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -476,9 +475,8 @@
 		};
 		736DF2A6338245EBB58A1F504C3C5A27 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 878FEF9E5B4A03D8086FBDD34B1B3765 /* MALibOne.debug.xcconfig */;
+			baseConfigurationReference = 7120D18806DE799C2F36C35D767C4064 /* MALibOne.debug.xcconfig */;
 			buildSettings = {
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -624,7 +622,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
